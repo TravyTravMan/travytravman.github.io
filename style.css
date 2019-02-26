@@ -32,6 +32,7 @@ header.startup h1 {
 
 .btn {
   font-weight: 700;
+  position: center;
   text-transform: uppercase;
   border-radius: 300px;
   font-family: 'sans-serif', sans-serif;
