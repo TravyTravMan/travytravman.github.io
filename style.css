@@ -72,7 +72,7 @@ header.startup h1 {
   cursor: pointer;
   background-image: linear-gradient(to right, #F09819 0%, #EDDE5D 51%, #F09819 100%);
   background-position: right center; 
-  transition-duration: 1s;
+  transition transition-delay: 2s;
   height:"180px"; 
   width:"300px";
 
