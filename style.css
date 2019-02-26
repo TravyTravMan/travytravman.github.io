@@ -58,7 +58,7 @@ header.startup h1 {
   position:fixed; top:0; left:0;
   left:0;
   top:0;
-  transition: .5s;
+  transition: 2s;
   position:fixed; top:0; left:0;
   height: 90px; 
   width: 150px;
@@ -68,7 +68,7 @@ header.startup h1 {
 .logo:hover {
   background-color: rgba(255, 169, 0, 5);
   border-color: rgba(255, 169, 0, 5);
-  transition-duration: 2s;
+  transition: 2s;
   border-width: 5px;
   cursor: pointer;
   background-image: linear-gradient(to right, #F09819 0%, #EDDE5D 51%, #F09819 100%);
