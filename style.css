@@ -75,35 +75,3 @@ header.startup h1 {
   height:"180px"; 
   width:"300px";
 
-
-}
-  
-
-:root {
-  --mainColor: #ff9800;
-}
-
-a {
-  background:
-     linear-gradient(
-       to right,
-       var(--mainColor) 0%,
-       var(--mainColor) 5px,
-       transparent 5px
-     );
-    background-repeat: repeat-x;
-    background-size: 100%;
-  color: #ffffff;
-  padding-left: 10px;
-  text-decoration: none;
-}
-
-a:hover {
-  background:
-     linear-gradient(
-       to right,
-       var(--mainColor) 0%,
-       var(--mainColor) 5px,
-       transparent
-     );
-}
