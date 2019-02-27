@@ -54,7 +54,7 @@ header.startup p {
 }
 
 .btn-primary {
-  background-color: rgba(255, 169, 0, 1);
+  background-color: rgba(0, 0, 0, 1);
   border-color: rgba(255, 169, 0, 5); 
   transition: .5s;
 }
@@ -80,7 +80,7 @@ header.startup p {
   background-color: rgba(255, 169, 0, 5);
   border-color: rgba(255, 169, 0, 5);
   border-width: 5px;
-  transition-duration: 2s;
+  transition: 2s;
   cursor: pointer;
   background-image: linear-gradient(to right, #F09819 0%, #EDDE5D 51%, #F09819 100%);
   background-position: right center; 
