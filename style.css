@@ -33,6 +33,7 @@ header.startup h1 {
   animation-iteration-count: 1;
 } 
 header.startup p {
+  font-size: 2rem;
   animation-duration: 4s;
   animation-delay: 3s;
   animation-iteration-count: 1;
