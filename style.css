@@ -32,9 +32,9 @@ header.startup h1 {
   animation-delay: 2s;
   animation-iteration-count: 1;
 } 
-p {
-  animation-duration: 3s;
-  animation-delay: 2s;
+header.startup p {
+  animation-duration: 4s;
+  animation-delay: 3s;
   animation-iteration-count: 1;
 } 
  
