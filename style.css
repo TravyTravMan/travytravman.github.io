@@ -54,7 +54,7 @@ header.startup p {
 }
 
 .btn-primary {
-  background-color: rgba(0, 0, 0, 1);
+  background-color: rgba(0, 0, 0, .6);
   border-color: rgba(255, 169, 0, 5); 
   transition: .5s;
 }
