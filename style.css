@@ -106,7 +106,7 @@ footer {
  *  Green Background
  **********************************************************************/
 .header-background{
-background: #ffffff;
+background: #444;
     opacity: 1.0;
 }
 
@@ -127,7 +127,7 @@ background: #ffffff;
  *  Yellow Background
  **********************************************************************/
 .yellow{
-    background: #ffffff;
+    background: #444;
     opacity: 1.0;
 }
 
