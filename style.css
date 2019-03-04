@@ -109,9 +109,11 @@ footer {
  **********************************************************************/
 .header-background{
     background: #ff0084; /* Old browsers */
-background: -moz-linear-gradient(top, #ff0084 0%, #b100f7 100%); /* FF3.6-15 */
-background: -webkit-linear-gradient(top, #ff0084 0%,#b100f7 100%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(to bottom, #ff0084 0%,#b100f7 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+http://colorzilla.com/gradient-editor/#ff0084+0,f9a200+47,b100f7+100 */
+background: #ff0084; /* Old browsers */
+background: -moz-linear-gradient(top, #ff0084 0%, #f9a200 47%, #b100f7 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #ff0084 0%,#f9a200 47%,#b100f7 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #ff0084 0%,#f9a200 47%,#b100f7 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff0084', endColorstr='#b100f7',GradientType=0 ); /* IE6-9 */
     opacity: 1.0;
 }
