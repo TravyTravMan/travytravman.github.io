@@ -108,8 +108,8 @@ footer {
  *  Green Background
  **********************************************************************/
 .header-background{
-background: grey;
-    opacity: 0.0;
+background: #ffffff;
+    opacity: 1.0;
 }
 
 /***********************************************************************
