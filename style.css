@@ -109,11 +109,7 @@ footer {
  **********************************************************************/
 .header-background{
    http://colorzilla.com/gradient-editor/#ff0084+0,f9a200+47,b100f7+100 */
-background: #ff0084; /* Old browsers */
-background: -moz-linear-gradient(left, #ff0084 0%, #f9a200 47%, #b100f7 100%); /* FF3.6-15 */
-background: -webkit-linear-gradient(left, #ff0084 0%,#f9a200 47%,#b100f7 100%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(to right, #ff0084 0%,#f9a200 47%,#b100f7 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff0084', endColorstr='#b100f7',GradientType=1 ); /* IE6-9 */
+background: #ffffff;
     opacity: 1.0;
 }
 
@@ -177,5 +173,4 @@ ul {
       background: -ms-linear-gradient(left, #3ebac6 0%, #8b539e 50%, #e53782 100%);
       background: linear-gradient(to right, #3ebac6 0%, #8b539e 50%, #e53782 100%);
       filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#3ebac6', endColorstr='#e53782', GradientType=1);
-}
 }
