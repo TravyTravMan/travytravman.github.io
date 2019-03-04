@@ -101,8 +101,6 @@ footer {
     padding-top: 20px;
 }
 
-
-
 /*https://paulund.co.uk/how-to-create-shiny-css-buttons*/
 /***********************************************************************
  *  Green Background
@@ -157,7 +155,7 @@ ul {
 
 .button {
     opacity: 1.0;
-    background: -webkit-linear-gradient(#d2a4f8, #3331d3);
+    color: -webkit-linear-gradient(#d2a4f8, #3331d3);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
     
