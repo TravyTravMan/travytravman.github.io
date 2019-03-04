@@ -108,9 +108,8 @@ footer {
  *  Green Background
  **********************************************************************/
 .header-background{
-   http://colorzilla.com/gradient-editor/#ff0084+0,f9a200+47,b100f7+100 */
 background: #ffffff;
-    opacity: 0;
+    opacity: 1.0;
 }
 
 /***********************************************************************
@@ -154,8 +153,6 @@ background: #ffffff;
 
 ul {
     opacity: 1.0;
-      animation-duration: 3s;
-  animation-delay: 2s;
 }
 
 .button {
