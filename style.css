@@ -70,7 +70,7 @@ a {
 }
 
 .cover {
-   background-image:url("./img/explore1");
+   background-image:url("https://i.pinimg.com/originals/56/be/9c/56be9c05002ed634a35878f60810ea68.png");
   width:100%;
   height:fixed;
   background-repeat:no-repeat;
@@ -113,7 +113,7 @@ background: -moz-linear-gradient(top, #ff0084 0%, #b100f7 100%); /* FF3.6-15 */
 background: -webkit-linear-gradient(top, #ff0084 0%,#b100f7 100%); /* Chrome10-25,Safari5.1-6 */
 background: linear-gradient(to bottom, #ff0084 0%,#b100f7 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff0084', endColorstr='#b100f7',GradientType=0 ); /* IE6-9 */
-    opacity: 0.8;
+    opacity: 1.0;
 }
 
 /***********************************************************************
