@@ -47,8 +47,10 @@ body {
      
     }
 
-.push {
+.social {
     margin-left: auto;
+    height: 100%;
+    width: auto;
 }
 
 li {
@@ -151,8 +153,7 @@ ul {
 .button {
     opacity: 1.0;
     color: -webkit-linear-gradient(#d2a4f8, #3331d3);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  
     
 }
 
