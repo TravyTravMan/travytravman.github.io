@@ -106,7 +106,7 @@ footer {
  *  Green Background
  **********************************************************************/
 .header-background{
-background: #444;
+background: #333333;
     opacity: 1.0;
 }
 
@@ -127,7 +127,7 @@ background: #444;
  *  Yellow Background
  **********************************************************************/
 .yellow{
-    background: #444;
+    background: #333333;
     opacity: 1.0;
 }
 
@@ -150,13 +150,11 @@ ul {
 
 .button {
     opacity: 1.0;
-   background: -webkit-linear-gradient(#d2a4f8, #3331d3);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+    color: white,;
   
     
 }
 
 .button:hover { 
-      color: white;
+      color: blue;
 }
