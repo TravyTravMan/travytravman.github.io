@@ -44,8 +44,6 @@ body {
         font-size: 0.5em;
         padding: 0;
 }
-     
-    }
 
 .social {
     margin-left: auto;
@@ -152,7 +150,9 @@ ul {
 
 .button {
     opacity: 1.0;
-    color: -webkit-linear-gradient(#d2a4f8, #3331d3);
+   background: -webkit-linear-gradient(#d2a4f8, #3331d3);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   
     
 }
