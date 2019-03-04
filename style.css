@@ -164,6 +164,6 @@ ul {
 .button:hover {
       text-align: center;
       width: 0%; 
-      color: #00CBFA;
+      color: linear-gradient(-45deg, #d2a4f8 0%, #3331d3 100%);
       text-shadow: 3px 2px red;
 }
