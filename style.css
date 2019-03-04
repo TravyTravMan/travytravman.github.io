@@ -156,8 +156,9 @@ ul {
 }
 
 .button {
-    color: white;
     opacity: 1.0;
+    background: #d2a4f8; /* Old browsers */
+    color:linear-gradient(-45deg, #d2a4f8 0%, #3331d3 100%); 
     
 }
 
@@ -165,4 +166,5 @@ ul {
       text-align: center;
       width: 0%; 
       color: #00CBFA;
+      text-shadow: 3px 2px red;
 }
