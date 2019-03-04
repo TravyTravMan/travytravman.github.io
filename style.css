@@ -66,6 +66,7 @@ a {
     align-items: center;
     justify-content: center;
     height: auto;
+    text-align: center;
 
 }
 
@@ -89,6 +90,10 @@ h1 {
   transition: background-position 0.5s;
     -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 h1:hover {
   /* shift background gradient position */
@@ -148,13 +153,8 @@ background: #292929;
  *  Yellow Background
  **********************************************************************/
 .yellow{
-    background: #F3AAAA; /* Old browsers */
-    background: -moz-linear-gradient(top, #F3AAAA 0%, #febf04 100%); /* FF3.6+ */
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#F3AAAA), color-stop(100%,#febf04)); /* Chrome,Safari4+ */
-    background: -webkit-linear-gradient(top, #F3AAAA 0%,#febf04 100%); /* Chrome10+,Safari5.1+ */
-    background: -o-linear-gradient(top, #F3AAAA 0%,#febf04 100%); /* Opera 11.10+ */
-    background: -ms-linear-gradient(top, #F3AAAA 0%,#febf04 100%); /* IE10+ */
-    background: linear-gradient(top, #F3AAAA 0%,#febf04 100%); /* W3C */
+    background: #292929;
+    opacity: 1.0;
 }
 
 /***********************************************************************
