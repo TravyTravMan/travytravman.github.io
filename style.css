@@ -157,13 +157,13 @@ ul {
 
 .button {
     opacity: 1.0;
-    background: linear-gradient(135deg, #d2a4f8 0%,#3331d3 100%); 
+    color: : linear-gradient(135deg, #d2a4f8 0%,#3331d3 100%); 
     
 }
 
 .button:hover {
       text-align: center;
       width: 0%; 
-     background: linear-gradient(135deg, #d2a4f8 0%,#3331d3 100%);
-      text-shadow: 3px 2px red;
+     color: linear-gradient(135deg, #d2a4f8 0%,#3331d3 100%);
+      
 }
