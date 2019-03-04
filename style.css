@@ -79,26 +79,21 @@ a {
 }
 
 h1 {
-  display: inline-block;
-  font: bold 4.5em/1.5 Bebas, sans-serif;
-  color: #5CA17C; /*non-webkit fallback*/
-  font-size: 100px;
-  text-transform: uppercase;
-   background-image: linear-gradient(to bottom, #26BDA6, #FF9F65, #DED37E, #26BDA6);
-  background-size: auto 250%;
-  background-position: 0 100%;
-  transition: background-position 0.5s;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  background:
+     linear-gradient(
+       to bottom, var(--mainColor) 0%,
+       var(--mainColor) 100%
+     );
+    background-position: 0 100%;
+    background-repeat: repeat-x;
+    background-size: 4px 4px;
+  color: #000;
+  text-decoration: none;
+  transition: background-size .2s;
 }
+
 h1:hover {
-  /* shift background gradient position */
-  background-position: 0 0;
-  cursor: pointer;
+  background-size: 4px 50px;
 }
 
 
