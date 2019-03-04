@@ -154,6 +154,8 @@ background: #ffffff;
 
 ul {
     opacity: 1.0;
+      animation-duration: 3s;
+  animation-delay: 2s;
 }
 
 .button {
