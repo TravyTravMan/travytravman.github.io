@@ -82,8 +82,7 @@ h1 {
   background:
      linear-gradient(
        to bottom, var(--mainColor) 0%,
-       var(--mainColor) 100%
-     );
+       var(--mainColor) 100%;
     background-position: 0 100%;
     background-repeat: repeat-x;
     background-size: 4px 4px;
