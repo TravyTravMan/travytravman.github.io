@@ -66,7 +66,6 @@ a {
     align-items: center;
     justify-content: center;
     height: auto;
-    text-align: center;
 
 }
 
@@ -77,6 +76,7 @@ a {
   background-repeat:no-repeat;
   background-size:cover;
 }
+
 
 /* GRID */
 .grid-wrapper {
@@ -108,7 +108,7 @@ footer {
  *  Green Background
  **********************************************************************/
 .header-background{
-background: #292929;
+background: #ffffff;
     opacity: 1.0;
 }
 
@@ -129,8 +129,13 @@ background: #292929;
  *  Yellow Background
  **********************************************************************/
 .yellow{
-    background: #292929;
-    opacity: 1.0;
+    background: #F3AAAA; /* Old browsers */
+    background: -moz-linear-gradient(top, #F3AAAA 0%, #febf04 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#F3AAAA), color-stop(100%,#febf04)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #F3AAAA 0%,#febf04 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #F3AAAA 0%,#febf04 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #F3AAAA 0%,#febf04 100%); /* IE10+ */
+    background: linear-gradient(top, #F3AAAA 0%,#febf04 100%); /* W3C */
 }
 
 /***********************************************************************
@@ -155,20 +160,9 @@ ul {
     background: -webkit-linear-gradient(#d2a4f8, #3331d3);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  linear-gradient:
-       to bottom, var(--mainColor) 0%,
-       var(--mainColor) 100%;
-    background-position: 0 100%;
-    background-repeat: repeat-x;
-    background-size: 4px 4px;
-  color: #000;
-  text-decoration: none;
-  transition: background-size .2s;
     
 }
 
 .button:hover { 
       color: white;
-      text-shadow: 
-      background-size: 4px 50px;
 }
