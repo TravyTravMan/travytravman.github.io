@@ -7,4 +7,7 @@ function checkDriverAge() {
 	} else if (Number(age) === 18) {
 		alert("Congratulations on your first time driving! Drive Safe!")
 	}
-}	
+}
+
+
+	
